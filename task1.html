@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Divyam -Developer  Portfolio</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+	<!--icons link of apps-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style type="text/css">
+		
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+			background-color: rgb(56, 7, 145);
+			color: white;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		nav{
+			display: flex;
+			justify-content: space-around;
+			align-items:center ;
+			height: 80px;
+			background-color: rgb(99, 61, 173 );
+		}
+
+		nav ul{
+			display: flex;
+			justify-content: center;
+		}
+
+		nav ul li{
+			list-style: none;
+			margin: 0 23px;	
+		}
+
+		nav ul li a{
+			text-decoration: none;
+			color: white;	
+		}
+
+		nav ul li a:hover{
+			color: lavender;
+			font-size: 1.2rem;	
+		}
+
+		main hr{
+			border: 0;
+			background: blueviolet;
+			height: 1px;
+			margin: 40px 80px;
+		}
+
+		.left{
+			font-size: 1.5rem;
+		}
+
+		.firstSection{
+			display: flex;
+			justify-content: space-around;
+			margin: 80px 0;
+		}
+
+		.firstSection div{
+			width: 30%;
+		}
+
+		.leftsection{
+			font-size: 2.5rem;
+			width: 34px;
+			margin: 50px 0;
+			align-items: center;
+		}
+		
+		.rightsection img{
+			margin-left: 5px;
+			margin-top: 6px;
+			
+		}
+		.rightsection{
+			border-radius: 50%;
+			width: 280px !important;
+			height: 280px;
+			margin-right: 4px;
+		}
+
+		#about{
+			margin-left: 10%;
+			font-size: 1.5rem;
+		}
+
+		#projects{
+			margin-left: 10%;
+			font-size: 1.5rem;
+		}
+
+		#contact{
+			margin-left: 10%;
+			font-size: 1.5rem;
+		}
+
+		table{
+			padding: 0;
+			margin-left: 10%;
+			text-align: center;
+			border-width:2px ;
+			border: 2px solid white;
+		}
+
+
+		table tr td{
+			margin: 2px 2px 2px 2px;
+			padding: 2px 2px 2px 2px;
+		}
+
+		#profileImg{
+			height: 270px;
+			width: 270px;
+			border-radius: 50%;
+			
+		}
+		.rightsection:hover{
+			background-color: rgba(62, 124, 205, 0.5);
+			
+		}
+		.rsection{
+			margin-left: 17%;
+			
+		}
+		footer {
+			font-size: 35px;
+			align-items: center;
+			text-align: center;
+			margin: 2px;
+			padding: 5px 5px;
+
+		}
+	</style>
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="left"> Divyam's Portfolio</div>
+			<div class="right">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About us</a></li>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="#projects">Projects</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+
+		<section class="firstSection" id="home">
+
+			<div class="leftsection">
+				Hi, My name is Divyam
+				<div>and I am a passionate </div>
+				
+				<span id="element">
+					<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+					<script>
+					    var typed = new Typed('#element', {
+					      strings: ['<i>Web Developer.</i>', '<i>Data Analyst.</i>','<i>Programmer.</i>'],
+					      typeSpeed: 50,
+					    });
+					</script>
+				</span>
+			</div>
+
+			<div class="rightsection">
+				<img id="profileImg" src="image.jpeg" alt="Developer Image" >
+			</div>
+		</section> <hr>
+
+	</main>
+
+		<section class="secondSection" id="about"><h3>About</h3>
+			<div>I am responsive website developer</div> <br>
+
+			<table border="2">
+
+				<tr>
+					<th>Qualification</th>
+					<th>University or School</th>
+					<th>Hobbies</th>
+					<th>Skills</th>
+				</tr>
+
+				<tr> 
+					<td>10th standarad</td>
+					<td>KSK ACADEMY</td>
+					<td>Online Gaming</td>
+					<td>Python</td>
+				</tr>
+
+				<tr>
+					<td>12th standarad</td>
+					<td>KSK ACADEMY</td>
+					<td>Sports</td>
+					<td>Web Developer</td>
+				</tr>
+
+				<tr>
+					<td>Pursuing B Tech CSE</td>
+					<td>Manav Rachna University</td>		
+					<td>Travel</td>
+					<td>Data Analysis</td>
+				</tr>
+
+		</table>
+
+
+		</section><br>
+                 
+                <section class="fifthSection" id="projects">
+			<div class="rsection">
+				
+                           
+			</div>
+		</section><br> 
+
+
+		<section class="thirdSection" id="projects"><h3>Projects</h3>
+			<div>I developed a dummy project on SDG-7</div>
+		</section><br>
+
+		<section class="fourthSection" id="contact"><h3>Contact Me</h3>
+			<div>
+				<i class="fas fa-solid fa-phone" style="rotate: 90deg;">  </i>
+				Contact no. :- +91 98107 35582<br>
+				<i class="fas fa-regular fa-envelope" style="color:white;"></i>	
+				E-mail :- divyamthakur312@gmail.com<br>		
+				<button type="button" style="size: 30px; padding: 10px; font-size: 15px; border-radius: 10px "><a href="	DIVYAM RESUME.pdf">Resume</a></button>			
+			</div>
+		</section>
+
+		<footer>
+			<i class="fa-brands fa-linkedin"></i>
+			<i class="fa-brands fa-instagram"></i>
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-github"></i>
+		</footer>
+</body>
+</html>
